@@ -35,6 +35,11 @@ namespace Excercise_1
                 }
             }
         }
-       
+
+        public List<string> getAllMissions(){
+            return funcDictionary.Keys.ToList();
+
+        }
+
     }
 }
